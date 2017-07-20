@@ -232,7 +232,7 @@ function rtvideo_supports($feature) {
         case FEATURE_BACKUP_MOODLE2:
             return true;
         case FEATURE_SHOW_DESCRIPTION:
-            return false;
+            return true;
 
         default:
             return null;
